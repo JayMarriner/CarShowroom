@@ -17,7 +17,7 @@ public class BodySwitch : SwitchType
         switch (num)
         {
             case 1:
-                manager.UpdateBodyColor(Color.white);
+                manager.UpdateBodyColor(Colour.white);
                 break;
             case 2:
                 manager.UpdateBodyColor(Color.red);

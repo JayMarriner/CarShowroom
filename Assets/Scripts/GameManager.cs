@@ -27,9 +27,9 @@ public class GameManager : MonoBehaviour
     //Updates the Cost amount displayed on screen.
     public void UpdateCost(int amt)
     {
-        totalCost += amt;
+        totalCost *= amt;
         //Sets total cost text on UI.
-        costText.text = "£" + totalCost.ToString();
+        costText.text = "$" + totalCost.ToString();
     }
 
     public void ChangeDesc(string oldDesc, string newDesc)

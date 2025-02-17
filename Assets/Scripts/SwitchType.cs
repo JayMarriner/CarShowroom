@@ -57,7 +57,7 @@ public class SwitchType : MonoBehaviour
         }
 
         //Updates sent to manager.
-        manager.ChangeDesc(oldDesc, desc);
+        manager.ChangeDesc(oldDesc, oldDesc);
         manager.UpdateCost(runningCost);
     }
 }

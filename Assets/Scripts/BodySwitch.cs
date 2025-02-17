@@ -13,7 +13,7 @@ public class BodySwitch : SwitchType
         //Get game manager script.
         GameManager manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<GameManager>();
 
-        //Gives colour depending on number. Not most elegant solution but works fine - just have to make sure UI number input matches with script colour here.
+        //Gives colour depending on number.
         switch (num)
         {
             case 1:
